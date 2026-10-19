@@ -1,0 +1,27 @@
+title: Task 3 - High and Critical Simulated APT Indicators
+id: 7e26d430-33e5-4c2c-9a61-aaf9c68f0a31
+status: test
+description: >
+  Identifies high- or critical-severity events explicitly marked as
+  synthetic telemetry in the controlled Task 3 APT scenario.
+author: ElevanceSkills Internship Lab
+date: 2026/10/09
+logsource:
+  category: intrusion_detection
+detection:
+  simulation:
+    'lab.simulation': true
+    'lab.evidence_type': synthetic
+  high_severity:
+    'event.severity': high
+  critical_severity:
+    'event.severity': critical
+  condition: simulation and (high_severity or critical_severity)
+falsepositives:
+  - Synthetic test events intentionally generated for validation
+level: high
+tags:
+  - attack.t1136
+  - attack.t1068
+  - attack.t1021
+  - attack.t1041

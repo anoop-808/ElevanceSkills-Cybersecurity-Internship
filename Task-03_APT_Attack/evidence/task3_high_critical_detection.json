@@ -1,0 +1,216 @@
+{
+  "generated_at_utc": "2026-10-09T14:02:30.995504+00:00",
+  "classification": "synthetic simulation telemetry",
+  "query_purpose": "Retrieve high and critical severity simulation events",
+  "matching_event_count": 8,
+  "events": [
+    {
+      "@timestamp": "2026-10-09T13:56:10.675780+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "account_persistence_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: unexpected account creation",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 2,
+        "stage_name": "Persistence indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1136"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:56:20.675780+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "privilege_escalation_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: suspicious privilege escalation",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 3,
+        "stage_name": "Privilege escalation indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1068"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:56:40.675780+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "lateral_movement_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: attempted remote-service movement",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 5,
+        "stage_name": "Lateral movement indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1021"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:56:42.046385+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "account_persistence_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: unexpected account creation",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 2,
+        "stage_name": "Persistence indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1136"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:56:50.675780+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "exfiltration_indicator",
+        "severity": "critical"
+      },
+      "message": "Synthetic indicator: suspicious outbound transfer",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 6,
+        "stage_name": "Exfiltration indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1041"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:56:52.046385+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "privilege_escalation_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: suspicious privilege escalation",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 3,
+        "stage_name": "Privilege escalation indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1068"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:57:12.046385+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "lateral_movement_indicator",
+        "severity": "high"
+      },
+      "message": "Synthetic indicator: attempted remote-service movement",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 5,
+        "stage_name": "Lateral movement indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1021"
+        }
+      }
+    },
+    {
+      "@timestamp": "2026-10-09T13:57:22.046385+00:00",
+      "event": {
+        "kind": "event",
+        "category": [
+          "intrusion_detection"
+        ],
+        "action": "exfiltration_indicator",
+        "severity": "critical"
+      },
+      "message": "Synthetic indicator: suspicious outbound transfer",
+      "lab": {
+        "task": "ElevanceSkills Task 3",
+        "simulation": true,
+        "scenario": "APT-01",
+        "stage": 6,
+        "stage_name": "Exfiltration indicator",
+        "evidence_type": "synthetic"
+      },
+      "threat": {
+        "framework": "MITRE ATT&CK",
+        "technique": {
+          "id": "T1041"
+        }
+      }
+    }
+  ]
+}

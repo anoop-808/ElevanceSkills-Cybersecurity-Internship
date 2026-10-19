@@ -1,0 +1,8 @@
+indicator_type,indicator,source,observation,assessment,confidence
+domain,lets.shop,eventcapture.pcapng,DNS query and response observed,Unclassified; presence alone does not establish maliciousness,Low
+domain,hlc7l6v5w6.execute-api.us-west-2.amazonaws.com,eventcapture.pcapng,DNS query and response observed,Unclassified; AWS hostname requires contextual validation,Low
+domain,maxmind.destinilocators.com,eventcapture.pcapng,DNS query and response observed,Unclassified; presence alone does not establish maliciousness,Low
+domain,www.pepsi.com,eventcapture.pcapng,TLS SNI observed for connection to 45.223.21.132:443,Observed hostname; connection intent remains unverified,Moderate
+ip,45.223.21.132,eventcapture.pcapng,Primary TCP conversation with 8732 frames,High confidence in observation; no malicious classification
+ip,10.27.173.215,eventcapture.pcapng,Private source address in captured conversations,Observed internal address; asset identity unknown
+ip,10.27.173.200,eventcapture.pcapng,Private DNS resolver address in observed DNS exchanges,Observed internal address; resolver role inferred from traffic

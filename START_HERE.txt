@@ -1,0 +1,16 @@
+ElevanceSkills Cybersecurity Internship — Submission Package
+
+This is a curated copy of deliverables from the supplied internship portfolio backup.
+The original ZIP was not modified.
+
+Contents:
+- Six task folders with final reports and selected supporting evidence.
+- Task 3 includes detection scripts/rules and validation artifacts.
+- Evidence explicitly labeled SMTP authentication was excluded from this share package
+  to avoid accidentally disclosing authentication material.
+- Nested ZIP archives and unrelated files were excluded.
+
+Before submitting:
+1. Review every report and screenshot.
+2. Confirm all files are appropriate to share with the reviewer.
+3. Upload the extracted folder to Google Drive and test link access.

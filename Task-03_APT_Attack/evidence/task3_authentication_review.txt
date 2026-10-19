@@ -1,0 +1,8 @@
+2026-10-07T08:16:38.745480+05:30 Bluejack sudo: pam_unix(sudo:auth): authentication failure; logname=karna uid=1000 euid=0 tty=/dev/pts/1 ruser=karna rhost=  user=karna
+2026-10-07T13:57:38.252737+05:30 Bluejack gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=karna uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=karna
+2026-10-07T13:57:43.483202+05:30 Bluejack gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=karna uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=karna
+2026-10-08T05:48:01.709307+05:30 Bluejack gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=karna uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=karna
+2026-10-08T05:48:10.982016+05:30 Bluejack gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=karna uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=karna
+2026-10-09T04:47:05.833258+05:30 Bluejack gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname=karna uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=karna
+2026-10-09T19:34:47.131011+05:30 Bluejack sudo:    karna : TTY=pts/0 ; PWD=/home/karna ; USER=root ; COMMAND=/usr/bin/grep -Ei 'authentication failure|failed password|invalid user|accepted password|accepted publickey|useradd|usermod|new user|sudo:.*COMMAND=' /var/log/auth.log
+2026-10-09T19:35:14.684940+05:30 Bluejack sudo:    karna : TTY=pts/0 ; PWD=/home/karna ; USER=root ; COMMAND=/usr/bin/grep -Ei 'authentication failure|failed password|invalid user|accepted password|accepted publickey|useradd|usermod|new user' /var/log/auth.log
